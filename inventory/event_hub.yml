@@ -1,0 +1,3 @@
+---
+plugin: event_hub_inventory_plugin
+topic: data/more_hosts.json
