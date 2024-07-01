@@ -1,0 +1,27 @@
+[
+{
+  "hostname": "Server0500021",
+  "db_type": "MSFT SQL Instance",
+  "database_name": "Server0500021\\SRA_SQLVIRT_DEV - sharpe_ref1"
+},
+{
+  "hostname": "Server0500022",
+  "db_type": "MSFT SQL Instance",
+  "database_name": "Server0500022\\SRA_SQLVIRT_DEV - sharpe_ref1"
+},
+{
+  "hostname": "Server0500023",
+  "db_type": "MSFT SQL Instance",
+  "database_name": "Server0500023\\SRA_SQLVIRT_DEV - sharpe_ref1"
+},
+{
+  "hostname": "Server0500024",
+  "db_type": "MSFT SQL Instance",
+  "database_name": "Server0500024\\SRA_SQLVIRT_DEV - sharpe_ref1"
+},
+{
+  "hostname": "Server0500025",
+  "db_type": "MSFT SQL Instance",
+  "database_name": "Server0500025\\SRA_SQLVIRT_DEV - sharpe_ref1"
+}
+]
