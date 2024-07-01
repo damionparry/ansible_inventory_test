@@ -1,3 +1,0 @@
----
-plugin: event_hub_inventory_plugin
-topic: data/100_records.json
