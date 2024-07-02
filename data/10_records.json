@@ -12,7 +12,8 @@
 {
   "hostname": "Server0500023",
   "db_type": "MSFT SQL Instance",
-  "database_name": "Server0500023\\SRA_SQLVIRT_DEV - sharpe_ref1"
+  "database_name": "Server0500023\\SRA_SQLVIRT_DEV - sharpe_ref1",
+  "secondary_server": "Server0500023_n02"
 },
 {
   "hostname": "Server0500024",
@@ -32,12 +33,14 @@
 {
   "hostname": "Server0500027",
   "db_type": "MSFT SQL Instance",
-  "database_name": "Server0500027\\SRA_SQLVIRT_DEV - sharpe_ref1"
+  "database_name": "Server0500027\\SRA_SQLVIRT_DEV - sharpe_ref1",
+  "secondary_server": "Server0500027_n02"
 },
 {
   "hostname": "Server0500028",
   "db_type": "MSFT SQL Instance",
-  "database_name": "Server0500028\\SRA_SQLVIRT_DEV - sharpe_ref1"
+  "database_name": "Server0500028\\SRA_SQLVIRT_DEV - sharpe_ref1",
+  "secondary_server": "Server0500028_n02"
 },
 {
   "hostname": "Server0500029",
