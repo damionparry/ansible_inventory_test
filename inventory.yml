@@ -1,3 +1,3 @@
 ---
 plugin: event_hub_inventory_plugin
-topic: data/10_records.json
+topic: data/update_5_records.json
