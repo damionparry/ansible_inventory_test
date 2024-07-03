@@ -50,11 +50,11 @@ class InventoryModule(BaseInventoryPlugin, Constructable, Cacheable):
             if not hosts_data:
                 raise AnsibleParserError("Unable to get data from Event Hub")
             for host_data in hosts_data:
-                if "secondary_server" in host_data:
-                    self.inventory.add_group(host_data['db_type'])
-                    self.inventory.add_host(host_data['hostname'], group=host_data['db_type'])
-                    self.inventory.set_variable(host_data['hostname'], 'database', host_data['database_name'])
-                    self.inventory.set_variable(host_data['hostname'], 'secondary_server', host_data['secondary_server'])
+                #if "secondary_server" in host_data:
+                self.inventory.add_group(host_data['db_type'])
+                self.inventory.add_host(host_data['hostname'], group=host_data['db_type'])
+                self.inventory.set_variable(host_data['hostname'], 'database', host_data['database_name'])
+                #    self.inventory.set_variable(host_data['hostname'], 'secondary_server', host_data['secondary_server'])
         except KeyError as kerr:
             raise AnsibleParserError(f'Missing required option on the configuration file: {path}', kerr)
 
